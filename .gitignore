@@ -1,0 +1,9 @@
+# generated zips go to GitHub Releases, not git
+dist/
+
+# drop-zone for new images: keep the folder, ignore its contents
+inbox/*
+!inbox/.gitkeep
+
+__pycache__/
+.venv/
